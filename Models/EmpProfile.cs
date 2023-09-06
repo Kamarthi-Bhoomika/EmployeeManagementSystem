@@ -12,6 +12,6 @@ namespace EmployeeManagementSystem.Models
         public string EmpName { get; set; }
         public string Email { get; set; }
         public int DeptCode { get; set; }
-        //public virtual DeptMaster DeptMaster { get; set; }
+        public virtual DeptMaster DeptMaster { get; set; }
     }
 }
